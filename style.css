@@ -1,0 +1,241 @@
+* {
+    /* border: 1px solid red; */
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+}
+
+nav {
+    /* display: flex;
+    flex-direction: row;
+    justify-content: space-between;     is this necessary? */
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    height: 60 px;
+}
+
+.nav-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.navbar-title {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 5%;
+}
+
+.navbar-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 5%;
+    width: 60%;
+    height: 100%;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: 0px;
+    padding: 0px;
+}
+
+.nav-item {
+    margin: 10px;
+    width: 100%;    /* why does adding this make the box it takes up bigger? (with red border on) */
+    height: 100%;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color:rgb(41, 102, 143);
+}
+
+/* .landing-area {
+    margin-bottom: 60px;
+} */
+
+.background-image {
+    z-index: -1;
+    width: 100%;
+    position: fixed;
+    margin-top: -100px;
+}
+
+.showfeats {
+    color: white;
+    z-index: 1;
+    height: 9em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4em;
+}
+
+.schedule {
+    background-color: white;
+    /* margin-top: 30px; */
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.date {
+    background-color: rgba(211, 211, 211, 0.514);
+    color: black;
+    width: 70%;
+    margin: 50px auto 10px auto;
+    border: 1px solid black;
+    padding-left: 35px;
+}
+
+h4 {
+    margin: 0px;
+}
+
+.showings {
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.show {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    margin: 12px;
+}
+
+.raisin-photo {
+    width: 250px;
+    margin: 10px;
+}
+
+.raisingimg {
+    width: 250px;
+}
+
+.show-info {
+    width: 50%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+span {
+    font-size: 1.3em;
+}
+
+.read-more {
+    width: 25%;
+    margin: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+input {
+    color: white;
+    background-color: rgb(230, 197, 13);
+    border: 1px solid lightgray;
+    height: 35px;
+}
+
+hr {
+    width: 100%;
+}
+
+footer {
+    margin-bottom: 0px;
+}
+
+.bottom {
+    background-color: black;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    padding-top: 30px;
+    justify-content: space-evenly;
+}
+
+.map {
+    width: 250px;
+    padding: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.mapimg {
+    width: 250px;
+}
+
+.foothead {
+    font-size: 2em;
+}
+
+.footinfo {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    font: 0.6em;
+    justify-content: space-around;
+}
+
+/* .info-wrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+} */
+
+.footshows {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25%;
+    font: 0.6em;
+}
+
+.social {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25%;
+    font: 0.6em;
+}
+
+i {
+    color: orange;
+}
+
+p {
+    margin: 3px;
+}
+
+/* Questions */
+/* Adjusting main background image so that there isn't so much black space on bottom */
+/* Adjusting HR lines so they span width better --> fixed? HR width 100%*/
+/* Adjusting size of raisin photo? --> added 10px margin around photo and each element in .shows */
